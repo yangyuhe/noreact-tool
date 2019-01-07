@@ -1,0 +1,19 @@
+{
+  "name": "noreact-tool",
+  "version": "1.0.0",
+  "description": "用于启动no react工程",
+  "main": "dist/main.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/ws": "^6.0.1"
+  },
+  "bin": {
+    "noreact-start": "./dist/main.js"
+  },
+  "dependencies": {
+    "ws": "^6.1.2"
+  }
+}
